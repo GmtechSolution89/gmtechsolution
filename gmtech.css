@@ -8,7 +8,7 @@
 
 h1{
   font-size: 50px;
-  line-height: 64px;
+  line-height: 60px;
   color: black;
 }
 
@@ -33,7 +33,7 @@ h6{
 p{
     font-size: 16px;
     color: grey;
-    margin: 15px 028px 0;
+    /* margin: 15px 28px 0; */
 }
 
 .section-p1{
@@ -116,13 +116,19 @@ body{
 
 /* Home page  */
 
-#hero{
-    background-image: url(image/Gmtech\ Solution\ header.jpg  );
+#hero {
+    background-image: url(https://s19538.pcdn.co/wp-content/uploads/2021/06/ecommerce.jpg );
     height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: top 25% right 0;
     padding: 0 80px;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    
+
 }
 
