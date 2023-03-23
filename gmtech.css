@@ -8,14 +8,14 @@
 
 h1{
   font-size: 50px;
-  line-height: 60px;
+
   color: black;
 }
 
 
 h2{
     font-size: 46;
-    line-height: 54;
+    
     color:black
 }
 
@@ -108,8 +108,22 @@ body{
 
 /* Home page  */
 
-#hero{
-    background-image: url();
+#hero {
+  
+    background-image: url("image/header\ emblem.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background: cover;
+    height: 50vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    padding-top: 0 80px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
 }
     
     
