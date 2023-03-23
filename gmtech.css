@@ -33,7 +33,7 @@ h6{
 p{
     font-size: 16px;
     color: grey;
-    /* margin: 15px 28px 0; */
+    margin: 15px 28px 0;
 }
 
 .section-p1{
@@ -48,14 +48,6 @@ p{
 body{
     width: 100%;
 }
-
-/* logo */
-
-/* #header{
-    margin-left: 5px;
-    margin-top: 5px;
-} */
-
 
 
 /* header top */
@@ -91,14 +83,14 @@ body{
 
 
 #navbar li a:hover{
-    color: aquamarine;
+    color: red;
 
 
 }
 
 #navbar li a:hover,
 #navbar li a.active{
- color: aquamarine;
+ color: rgb(255, 3, 3);
 }
 
 #navbar li a.active::after,
@@ -107,7 +99,7 @@ body{
     content: "";
     width: 30%;
     height: 2px;
-    background:aquamarine ;
+    background:rgb(255, 2, 2) ;
     position: absolute;
     bottom: -4px; 
     left: 20px;
@@ -116,19 +108,9 @@ body{
 
 /* Home page  */
 
-#hero {
-    background-image: url(https://s19538.pcdn.co/wp-content/uploads/2021/06/ecommerce.jpg );
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: top 25% right 0;
-    padding: 0 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    
-    
-
+#hero{
+    background-image: url();
 }
+    
+    
 
