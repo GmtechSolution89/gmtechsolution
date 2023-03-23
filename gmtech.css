@@ -145,7 +145,7 @@ body{
     background-image: url("image/button/final\ btn.png");
     background-color: transparent;
     background-repeat: no-repeat;
-   
+    
     border: 0;
     font-size: 24px;
     margin-top: 10px;
@@ -155,7 +155,7 @@ body{
     padding-right: 50;
     cursor: pointer;
     font-weight: 700;
-    
+   
 }
 
 #hero button:hover{
@@ -163,19 +163,48 @@ body{
 }
 
 
+
 #feature{
     background:rgba(6, 243, 252, 0.11);
     box-shadow: 20 20px 20 black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
 }
 
 #feature .fe-box{
     width: 180px;
     text-align: center;
     padding: 25px 15px;
-    box-shadow: 1px 1px 15px rgb(0, 0, 0);
-    border: 1px solid;
+    box-shadow: 0px 1px 15px rgb(148, 147, 147);
+    border: dotted 1px;
     cursor: pointer;
+    border-radius: 4px;
+    margin: 15px 0;
 }
+
+#feature .fe-box:hover{
+    box-shadow: 1px 1px 20px rgb(97, 96, 96);
+}
+
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: aqua;
+    background-color: brown;
+
+}
+
 
     
     
