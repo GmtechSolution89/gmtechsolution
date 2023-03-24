@@ -170,18 +170,19 @@ body{
     
 }
 
-#hero button{
+#hero #btn{
     background-image: url("image/button/final\ btn.png");
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: 10 20 60;
     border: 0;
-    font-size: 10%px;
-    margin-top: 10px;
+    font-size: 130%;
+    margin-top: 15px;
+    
     padding-top: 10px;
-    padding-bottom: 80px;
-    padding-left: 50;
-    padding-right: 55;
+    padding-bottom: 30px;
+    padding-left: 30;
+    padding-right: 10%;
     cursor: pointer;
     font-weight: 700;
     
