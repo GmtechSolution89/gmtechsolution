@@ -174,11 +174,11 @@ body{
     background-image: url("image/button/final\ btn.png");
     background-color: transparent;
     background-repeat: no-repeat;
-    background-position: 10 20 60;
-    border: 0;
-    font-size: 130%;
-    margin-top: 15px;
     
+    /* border: 0; */
+    font-size: 148%;
+    margin-top: 15px;
+    margin-left: 100px;
     padding-top: 10px;
     padding-bottom: 30px;
     padding-left: 30;
