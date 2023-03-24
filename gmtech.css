@@ -56,16 +56,25 @@ body{
   
     background-color: #4CAF50;
     border: none;
+   
     color: rgb(2, 0, 0);
-    padding: 15px 32px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    /* margin: 10%; */
     cursor: pointer;
     box-sizing: border-box;
     border-radius: 20px;
+
+
+   
+ 
+   
     
   }
    
@@ -167,21 +176,18 @@ body{
     background-repeat: no-repeat;
     background-position: 10 20 60;
     border: 0;
-    font-size: 24px;
+    font-size: 10%px;
     margin-top: 10px;
-    
-    
-    
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 80px;
     padding-left: 50;
     padding-right: 55;
     cursor: pointer;
     font-weight: 700;
-   
+    
 }
 
-#hero button:hover{
+#hero a:hover{
     color: rgb(1, 255, 1);
 }
 
@@ -219,6 +225,16 @@ body{
 
 
 #feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: aqua;
+    background-color: brown;
+
+}
+
+#feature .fe-box a{
     display: inline-block;
     padding: 9px 8px 6px 8px;
     line-height: 1;
