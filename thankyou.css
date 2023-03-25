@@ -44,27 +44,29 @@ html,body{
 
 .star-widget i{
     font-size: 40px;
-    color: #a5a4a4;
+    color: #fd4;
     padding: 10px;
     float: right;
     transition: all 0.2s ease;
+   
 }
 
 
 
 input:not(:checked) ~ i:hover,
 input:not(:checked) ~ i:hover i{
-    color: #fd4;
+    color:  rgb(255, 251, 0);
 }
 
-input :checked ~ i{
+/* input :checked ~ i{
     color: #fd4;
-}
+} */
 
 /* input #rate-5:checked ~ i{
     color: #fe7;
     text-shadow: 1 1 20px #952;
 } */
+
 
 
  
