@@ -30,6 +30,7 @@ html,body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .container-star .star-widget input{
@@ -52,18 +53,18 @@ html,body{
 
 
 input:not(:checked) ~ i:hover,
-input:not(:checked) ~ i:hover ~ i{
+input:not(:checked) ~ i:hover i{
     color: #fd4;
 }
 
-input:checked ~ i{
+input :checked ~ i{
     color: #fd4;
 }
 
-input #rate-5:checked ~ i{
+/* input #rate-5:checked ~ i{
     color: #fe7;
-    text-shadow: 0 0 20px #952;
-}
+    text-shadow: 1 1 20px #952;
+} */
 
 
  
