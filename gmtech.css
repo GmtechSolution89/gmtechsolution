@@ -50,6 +50,39 @@ body{
 }
 
 
+/* Ads Section left*/
+
+#fix-po{ 
+    position: fixed;
+    top:300px;
+    margin-right: 70%;
+    margin-left: 35px;
+    width: 150px;
+    
+}
+
+/* Ads Section right*/
+
+#fix-po2{ 
+    position: fixed;
+    top:300px;
+    margin-left: 70%;
+    margin-right: 35px;
+    width: 150px;
+    
+}
+
+
+  
+    
+    
+    
+    
+   
+    
+
+
+   
 
 
 /* Download Free btn */
@@ -196,19 +229,21 @@ body{
 
 
 #feature{
-    background:rgba(6, 243, 252, 0.11);
+    background:rgba(3, 240, 248, 0.808);
     box-shadow: 20 20px 20 black;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    height: 200px;
+    padding-top: 10px;
   
 }
 
 #feature .fe-box{
     width: 180px;
     text-align: center;
-    padding: 25px 15px;
+    padding: 5px 50px;
     box-shadow: 0px 1px 15px rgb(148, 147, 147);
     border: dotted 1px;
     cursor: pointer;
@@ -320,7 +355,7 @@ body{
 
 }
 
-#products1 .pro .des #sold a{
+#products1 .pro .des #sold {
     
     color: #1a1a1a;
     font-size: 14px;
