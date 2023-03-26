@@ -416,6 +416,12 @@ body{
 }
 
 
+#products1 .pro img:hover{
+transform: scale(1.2); /* magpapalaki ng 20% kapag naka-hover */
+  transition: transform 0.3s ease; /* magpapakalma sa transition kapag nagbabago ng laki */
+}
+
+
 #products1 .pro .des span{ 
     color: gray;
     font-size: 12px;
@@ -462,9 +468,16 @@ body{
     color: #000000;
     font-size: 14px;
     
-    
-
 }
+
+
+
+
+
+
+
+
+/* ==================banner======================= */
 
 #banner{
     display: flex;
