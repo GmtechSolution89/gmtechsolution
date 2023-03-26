@@ -23,3 +23,6 @@ submit.addEventListener('click', () => {
     alert('Please select a rating');
   }
 });
+// ===========================================
+
+
