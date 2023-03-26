@@ -1,80 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-
-
-
-}
-
-html,body{
-    display: grid;
-    height: 100%;
-    place-items: center;
+.rating {
+    font-family: Arial, sans-serif;
     text-align: center;
-    background: #000;
-
-
-}
-
-.container-star{
-    width: 400px;
-    background: #000000;
-    padding: 20px 30px;
-    border: 5px solid #3d3c3c;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  }
+  
+  .stars {
+    display: inline-block;
+    font-size: 30px;
     cursor: pointer;
-}
-
-.container-star .star-widget input{
-    display: none;
-    font-size: 40px;
-    color: #a5a4a4;
+  }
+  
+  .star:hover,
+  .star:hover ~ .star {
+    color: gold;
+  }
+  
+  .message {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .submit {
+    margin-top: 10px;
     padding: 10px;
-    float: right;
-
-}
-
-.star-widget i{
-    font-size: 40px;
-    color: #fd4;
-    padding: 10px;
-    float: right;
-    transition: all 0.2s ease;
-   
-}
-
-
-
-input:not(:checked) ~ i:hover,
-input:not(:checked) ~ i:hover i{
-    color:  rgb(255, 251, 0);
-}
-
-/* input :checked ~ i{
-    color: #fd4;
-} */
-
-/* input #rate-5:checked ~ i{
-    color: #fe7;
-    text-shadow: 1 1 20px #952;
-} */
-
-
-
- 
-
-
-
-
-
-
-
-   
+    background-color: #1c1c1c;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
