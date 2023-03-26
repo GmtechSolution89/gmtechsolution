@@ -73,18 +73,6 @@ body{
 }
 
 
-  
-    
-    
-    
-    
-   
-    
-
-
-   
-
-
 /* Download Free btn */
 
  button{
@@ -125,7 +113,19 @@ body{
      position: sticky;
      top: 0;
      left: 0;
+     position: relative;
 }
+
+
+#header img{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 80px;
+
+   
+}
+
 
 #navbar{
     display: flex;
