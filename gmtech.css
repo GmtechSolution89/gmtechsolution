@@ -355,6 +355,18 @@ body{
 
 }
 
+#products1 .pro .des #sold {
+    
+    color: #1a1a1a;
+    font-size: 14px;
+    
+    text-decoration: none;
+
+}
+
+
+
+
 #products1 .pro .des #sold a{
     
     color: #1a1a1a;
