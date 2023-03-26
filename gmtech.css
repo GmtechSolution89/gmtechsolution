@@ -235,15 +235,15 @@ body{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 200px;
-    padding-top: 10px;
+    height: 170px;
+    padding-top: 0px;
   
 }
 
 #feature .fe-box{
     width: 180px;
     text-align: center;
-    padding: 5px 50px;
+    padding: 1px 50px;
     box-shadow: 0px 1px 15px rgb(148, 147, 147);
     border: dotted 1px;
     cursor: pointer;
