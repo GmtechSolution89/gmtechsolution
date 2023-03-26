@@ -95,6 +95,7 @@ body{
     cursor: pointer;
     box-sizing: border-box;
     border-radius: 20px;
+    
 
   }
 
@@ -200,7 +201,7 @@ body{
 #header img{
     position: absolute;
     top: 25px;
-    left: 0;
+    left: 25px;
     width: 80px;
 
    
@@ -288,7 +289,7 @@ body{
     background-image: url("image/button/final\ btn.png");
     background-color: transparent;
     background-repeat: no-repeat;
-    
+    text-decoration: none;
     /* border: 0; */
     font-size: 148%;
     margin-top: 15px;
