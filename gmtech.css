@@ -355,7 +355,7 @@ body{
 
 }
 
-#products1 .pro .des #sold {
+#products1 .pro  #sold {
     
     color: #1a1a1a;
     font-size: 14px;
