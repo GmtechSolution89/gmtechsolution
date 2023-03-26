@@ -355,18 +355,21 @@ body{
 
 }
 
-#products1 .pro .des #sold {
+#products1 .pro .des #sold a{
     
     color: #1a1a1a;
     font-size: 14px;
-    display: inline-block;
+    
+    text-decoration: none;
 
 }
 
-#products1 .pro .des #rate{
+#products1 .pro .des  #rate {
     
-    color: #1a1a1a;
+    color: #000000;
     font-size: 14px;
+    
+    
 
 }
 
