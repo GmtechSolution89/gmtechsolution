@@ -77,30 +77,31 @@ body{
 
 /* Download Free btn */
 
- button{
+ button {
   
     background-color: #4CAF50;
     border: none;
-   
+    
     color: rgb(2, 0, 0);
     padding-top: 5px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 5px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    
+    
     font-size: 16px;
-    /* margin: 10%; */
+   
     cursor: pointer;
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 15px;
     
 
   }
 
   button a:hover{
     color: aliceblue;
+    
   }
 
   /* ====================Footer Secrtion=============== */
@@ -139,7 +140,7 @@ body{
   
   .footer-menu li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 30px;
   }
   
   .footer-menu li:first-child {
@@ -171,9 +172,22 @@ body{
 } */
 .container-us .btn{
     text-decoration: none;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem;
     font-weight: 700;
-    color: #000000;
+    color: #000000; */
+
+    display: block;
+	margin: 20px auto;
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	width: 200px;
+	transition: all 0.3s ease;
 }
 
 .container-us .btn:hover{
