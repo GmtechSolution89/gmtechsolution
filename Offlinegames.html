@@ -82,8 +82,11 @@
     </section> 
 
 
-            
-
+            <!-- Search Bar Section -->
+            <div class="search-container">
+                <input type="text" placeholder="Search for game title..." id="search-bar">
+                <button type="submit" onclick="searchGames()">Search</button>
+            </div>
     <!-- ===============PRODUCTS================= -->
    
     <section id="products1" class="section-p1">
@@ -272,7 +275,9 @@
                         <!-- Genre: -->
                         <span>PCgame</span>
                         <!-- Game Title: -->
-                        <h4>Metal Slug: Super Vehicle-001</h4>
+                        <div class="game-list">
+                        <h4 class="Game-title" >Metal Slug: Super Vehicle-001</h4>
+                        </div>
                         <!-- Game Description: -->
                         <h6>While Metal Slug is a visual treat. It is the gameplay that has kept this game relevant for all these years. 
                             I would say that Metal Slug: Super Vehicle-001 is just as much fun to play today as it was all the way back in 1996.
@@ -450,6 +455,10 @@
 
 
                         <div style="margin-top: 350px;"></div>
+
+
+                      <!-- script global section -->
+                        <script src="script.js"></script>
 
 </body>
 
