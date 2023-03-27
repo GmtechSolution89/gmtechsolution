@@ -222,6 +222,7 @@ button[type=submit]:hover {
 
 .game-list {
 	margin-top: 20px;
+    margin-left: 80%;
 }
 
 .Game-title h4{
