@@ -73,20 +73,22 @@
    
   <section id="products1" class="section-p1">
     <h2>Ebooks & Courses</h2>
-    <!-- <span>Click the "Download" button to initiate the free file download and get compact download launcher.
-        <br> Locate the executable file in your local folder and begin the launcher to install your desired game.
-        <br>(Recommend) install  Download manager.</span> -->
+    <p>notice:All product you buy will be Direct Downloaded or Delivered via email within 24hrs Thank you enjoy shopping!
+        (Order not received?   <a href="https://www.facebook.com/profile.php?id=100063980924885">Click here</a> )
+
+    </p>
 
         <!-- ==========Genre Section===========  -->
         <div class="Genre">
-            <a href="#">Audio</a>
-            <a href="#"></a>
-            <a href="#">RPG|</a>
-            <a href="#">Shooting|</a>
-            <a href="#">Strategy|</a>
-            <a href="#">Horror|</a>
-            <a href="#">18+|</a>
-            <a href="#">LATEST GAMES</a>
+            <a href="#">Audio|</a>
+            <a href="#">Cooking|</a>
+            <a href="#">Manga&Comics|</a>
+            <a href="#">Fiction|</a>
+            <a href="#">Series|</a>
+            <a href="#">Health&Fitness|</a>
+            <a href="#">Learning|</a>
+            <a href="#">Paranormal|</a>
+            <a href="#">New Ebooks Collection</a>
         </div>
 
 
@@ -111,35 +113,66 @@
                 </div>               
                 <h4>PHP20.00</h4>  
             </div>      
-            <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="CH4BSEBSS7BFY">
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>                                   -->
-                <button><a href="https://d2r3dgsh5nr4kg.cloudfront.net/installer/773926190795/07103890">Download</a></button>
+                <!-- Paypal -->
+                <div id="smart-button-container">
+                    <div style="text-align: center;">
+                      <div id="paypal-button-container"></div>
+                    </div>
+                  </div>
+                <script src="https://www.paypal.com/sdk/js?client-id=AVVEklhr3qPZqAh2QrURdFY6Jm_1o7FVZRIzBj0oV3Hyr4tWkXQNcGqA392cXCL2r7hOKRDxyJ_u1D7q&enable-funding=venmo&currency=PHP" data-sdk-integration-source="button-factory"></script>
+                <script>
+                  function initPayPalButton() {
+                    paypal.Buttons({
+                      style: {
+                        shape: 'pill',
+                        color: 'gold',
+                        layout: 'vertical',
+                        label: 'pay',
+                        
+                      },
+              
+                      createOrder: function(data, actions) {
+                        return actions.order.create({
+                          purchase_units: [{"description":"1500+ Ebooks Mega collection","amount":{"currency_code":"PHP","value":20}}]
+                        });
+                      },
+              
+                      onApprove: function(data, actions) {
+                        return actions.order.capture().then(function(orderData) {
+                          
+                          // Full available details
+                          console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+              
+                          // Show a success message within this page, e.g.
+                          const element = document.getElementById('paypal-button-container');
+                          element.innerHTML = '';
+                          element.innerHTML = '<h3>Thank you for your payment!</h3>';
+              
+                          // Or go to another URL:  actions.redirect('thank_you.html');
+                          
+                        });
+                      },
+              
+                      onError: function(err) {
+                        console.log(err);
+                      }
+                    }).render('#paypal-button-container');
+                  }
+                  initPayPalButton();
+                </script>
                 
             </div>
-
+            <!-- =====================Product ends here==================== -->
 
             <div class="pro">
-                <img src="https://gamefabrique.com/i/pc/mega-man-x-dive.jpg" width="250px" alt="loading">
-                <img src="https://gamefabrique.com/screenshots/pc/mega-man-x-dive-15.jpg" width="" alt="">
+                <img src="#" width="250px" alt="loading">
                 <div class="des">
                     <!-- Genre: -->
-                    <span>PCgame</span>
-                    <!-- Game Title: -->
-                    <h4 >Mega Man X DiVE</h4>
-                    <!-- Game Description: -->
-                    <h6></h6>
-                       
-                   <!-- Game info: -->
-                   <h5> System requirements:</h5>
-                   <span>
-                    PC compatible
-                    Operating systems: Windows 10/Windows 8/Windows 7/2000/Vista/WinXP</span>
+                    <span>Ebook</span>
+                    <!-- Title: -->
+                    <h4 >Children Book Collection vol.1</h4>             
                     <div class="star">              
-                       <i id="sold"> <a href="Thankyou.html">Rate this game</a> </i>
+                       <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
                         <!-- <i> &#9733;</i>
                         <i> &#9733;</i>
                         <i> &#9733;</i>
@@ -149,34 +182,42 @@
                     </div>               
                     <h4>FREE</h4>  
                 </div>      
-                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="CH4BSEBSS7BFY">
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>                                   -->
-                    <button><a href="https://d2r3dgsh5nr4kg.cloudfront.net/installer/3977789/90473219699351">Download</a></button>
+                    <button><a href="https://terabox.com/s/1EGY2fZJdXHyI5Jglesf6Wg">Download</a></button>
+
+            </div> 
+            <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
                     
-                </div>
+                        <button><a href="#">Download</a></button>
 
+                </div> 
+                <!-- =====================Product ends here==================== -->
                 <div class="pro">
-                    <img src="https://gamefabrique.com/i/switch/the-legend-of-zelda-tears-of-the-kingdom.png" width="250px" alt="loading">
-                    <img src="https://gamefabrique.com/screenshots/switch/the-legend-of-zelda-tears-of-the-kingdom-04.jpg" width="" alt="">
+                    <img src="#" width="250px" alt="loading">              
                     <div class="des">
                         <!-- Genre: -->
-                        <span>PCgame</span>
-                        <!-- Game Title: -->
-                        <h4 >The Legend of Zelda: Tears of the Kingdom</h4>
-                        <!-- Game Description: -->
-                        <h6></h6>
-                           
-                       <!-- Game info: -->
-                       <h5> System requirements:</h5>
-                       <span>
-                        PC compatible
-                        Operating systems: Windows 10/Windows 8/Windows 7/2000/Vista/WinXP</span>
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
                         <div class="star">              
-                           <i id="sold"> <a href="Thankyou.html">Rate this game</a> </i>
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
                             <!-- <i> &#9733;</i>
                             <i> &#9733;</i>
                             <i> &#9733;</i>
@@ -186,34 +227,20 @@
                         </div>               
                         <h4>FREE</h4>  
                     </div>      
-                    <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="CH4BSEBSS7BFY">
-                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>                                   -->
-                        <button><a href="https://d2r3dgsh5nr4kg.cloudfront.net/installer/5536587/13943245558">Download</a></button>
+                    
+                        <button><a href="#">Download</a></button>
 
-                </div> 
-
+                </div>                          
+                <!-- =====================Product ends here==================== -->
                 <div class="pro">
-                    <img src="https://gamefabrique.com/i/gba/final-fantasy-1-and-2-Dawn-of-souls.png" width="250px" alt="loading">
-                    <img src="https://gamefabrique.com/screenshots2/pc/final-fantasy-1-and-2-dawn-of-souls-01.medium.jpg" width="" alt="">
+                    <img src="#" width="250px" alt="loading">              
                     <div class="des">
                         <!-- Genre: -->
-                        <span>PCgame</span>
-                        <!-- Game Title: -->
-                        <h4 >Final Fantasy I & II: Dawn of Souls</h4>
-                        <!-- Game Description: -->
-                        <h6></h6>
-                           
-                       <!-- Game info: -->
-                       <h5> System requirements:</h5>
-                       <span>
-                        PC compatible
-                        Operating systems: Windows 10/Windows 8/Windows 7/2000/Vista/WinXP</span>
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
                         <div class="star">              
-                           <i id="sold"> <a href="Thankyou.html">Rate this game</a> </i>
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
                             <!-- <i> &#9733;</i>
                             <i> &#9733;</i>
                             <i> &#9733;</i>
@@ -223,28 +250,729 @@
                         </div>               
                         <h4>FREE</h4>  
                     </div>      
-                    <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="CH4BSEBSS7BFY">
-                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>                                   -->
-                        <button><a href="https://d2r3dgsh5nr4kg.cloudfront.net/installer/6831706924747716924/07285067">Download</a></button>
+                    
+                        <button><a href="#">Download</a></button>
 
-                </div> 
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
+                <div class="pro">
+                    <img src="#" width="250px" alt="loading">              
+                    <div class="des">
+                        <!-- Genre: -->
+                        <span>Ebook</span>
+                        <!-- Title: -->
+                        <h4 >Learning</h4>             
+                        <div class="star">              
+                           <i id="sold"> <a href="Thankyou.html">Rate this</a> </i>
+                            <!-- <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i>
+                            <i> &#9733;</i> -->
+                            <!-- <i id="rate">(1)</i> -->
+                        </div>               
+                        <h4>FREE</h4>  
+                    </div>      
+                    
+                        <button><a href="#">Download</a></button>
+
+                </div>                          
+                <!-- =====================Product ends here==================== -->
 
 
-                        
-              
-                       
-                                
-                      
-                        <!-- =====================Product ends here==================== -->
-
-        
 
 
-        
+
         
         </div>
 
